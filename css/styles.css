@@ -23,7 +23,6 @@ body {
   background-color: var(--white--background--white);
 }
 
-
 ul {
   list-style-type: none;
 }
@@ -33,12 +32,13 @@ a {
 }
 
 .logo-link {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
   color: var(--primary--brand--iris);
 }
 
@@ -47,7 +47,7 @@ a {
 }
 
 .nav-link {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -56,8 +56,20 @@ a {
   color: var(--dark--navy--blue);
 }
 
+.nav-link:hover {
+  color: var(--pressed--state--ocean);
+}
+
+.current {
+  color: var(--pressed--state--ocean);
+}
+
+.address {
+  font-style: normal;
+}
+
 .auth-nav {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -66,12 +78,16 @@ a {
   color: var(--text--slate);
 }
 
+.auth-nav:hover {
+  color: var(--pressed--state--ocean);
+}
+
 .hero {
   background-color: var(--dark--navy--blue);
 }
 
 .hero-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
@@ -81,12 +97,13 @@ a {
 }
 
 .hero-button {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: left;
+  cursor: pointer;
   color: var(--white--background--white);
 }
 
@@ -94,18 +111,22 @@ button {
   background-color: var(--primary--brand--iris);
 }
 
-.title {
-  font-family: Roboto;
+button:hover,
+button:focus {
+  color: var(--pressed--state--ocean);
+}
+
+.title-directions {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--dark--navy--blue);
 }
 
 .title-text {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -114,8 +135,22 @@ button {
   color: var(--dark--navy--blue);
 }
 
-.title-name {
+.team {
+  background-color: var(--light--cloud);
+}
+
+.title-team {
   font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.title-name {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -124,10 +159,31 @@ button {
   color: var(--dark--navy--blue);
 }
 
-footer {
+.title-name-text {
+  font-size: 16px;
+}
+
+.portfolio {
+  background-color: var(--light--cloud);
+}
+
+.title-portfolio {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.footer {
   background-color: var(--dark--navy--blue);
 }
 
 .logo-footer {
+  color: var(--light--cloud);
+}
+
+.footer-text {
   color: var(--light--cloud);
 }
