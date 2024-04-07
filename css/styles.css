@@ -61,10 +61,6 @@ a {
   color: #404bbf;
 }
 
-.current {
-  color: var(--pressed--state--ocean);
-}
-
 .address {
   font-style: normal;
 }
@@ -156,7 +152,7 @@ button:focus {
 }
 
 .img-team {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .title-name {
@@ -167,7 +163,7 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--dark--navy--blue);
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .title-name-text {
