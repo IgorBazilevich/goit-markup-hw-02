@@ -138,7 +138,7 @@ button:focus {
 }
 
 .team-li {
-  color: var(--light--cloud);
+  background-color: var(--white--background--white);
 }
 
 
@@ -171,6 +171,7 @@ button:focus {
 
 .title-name-text {
   font-size: 16px;
+  color: var(--text--slate);
 }
 
 .portfolio {
