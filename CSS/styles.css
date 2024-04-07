@@ -1,3 +1,17 @@
+:root {
+  --primary--brand--iris: #4d5ae5;
+  --pressed--state--ocean: #404bbf;
+  --dark--navy--blue: #2e2f42;
+  --success--green: #31d0aa;
+  --text--slate: #4d5ae5;
+  --accent--cornflower: #e7e9fc;
+  --light--cloud: #f4f4fd;
+  --modal--overlay--blue--modal: #2e2f42;
+  --hero--background--grey: #2e2f42;
+  --white--background--white: #ffffff;
+  --modal--background--dairy: #8e8f99;
+}
+
 body {
   font-family: "roboto", sans-serif;
   color: #434455;
@@ -8,6 +22,20 @@ ul {
   list-style-type: none;
 }
 
-.link {
+a {
   text-decoration: none;
+}
+
+.logo-link {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2e2f42;
+}
+
+.logo-header {
+  color: var(--primary--brand--);
 }
