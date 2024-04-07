@@ -79,7 +79,7 @@ a {
   color: var(--text--slate);
 }
 
-.auth-nav:hover {
+.auth-nav:hover .auth-nav:focus {
   color: var(--pressed--state--ocean);
 }
 
@@ -149,6 +149,7 @@ button:focus {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark--navy--blue);
+}
 
 .img-team {
   background-color: var(--white--background--white);
@@ -183,13 +184,13 @@ button:focus {
 }
 
 .footer {
-  background-color: var(--dark--navy--blue);
+  background-color: #2e2f42;
 }
 
 .logo-footer {
-  color: var(--light--cloud);
+  color: #f4f4fd;
 }
 
 .footer-text {
-  color: var(--light--cloud);
+  color: #f4f4fd;
 }
