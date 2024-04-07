@@ -156,7 +156,7 @@ button:focus {
 }
 
 .img-team {
-  background-color: var(--white--background--white);
+  background-color: #FFFFFF;
 }
 
 .title-name {
@@ -167,6 +167,7 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--dark--navy--blue);
+  background-color: #FFFFFF;
 }
 
 .title-name-text {
