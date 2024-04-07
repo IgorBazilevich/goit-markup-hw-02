@@ -53,12 +53,12 @@ a {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  color: var(--dark--navy--blue);
+  color: #2e2f42;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--pressed--state--ocean);
+  color: #404bbf;
 }
 
 .current {
@@ -140,6 +140,10 @@ button:focus {
   background-color: var(--light--cloud);
 }
 
+.img-team {
+  background-color: #ffffff;
+}
+
 .title-team {
   font-family: Roboto;
   font-size: 36px;
@@ -181,6 +185,10 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+}
+
+.title-text-portfolio {
+  color: #434455;
 }
 
 .footer {
