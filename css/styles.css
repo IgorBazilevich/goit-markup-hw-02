@@ -75,8 +75,9 @@ a {
   color: var(--text--slate);
 }
 
-.auth-nav:hover .auth-nav:focus {
-  color: var(--pressed--state--ocean);
+.auth-nav:hover,
+.auth-nav:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -132,13 +133,13 @@ button:focus {
   color: var(--dark--navy--blue);
 }
 
-.team {
-  background-color: var(--light--cloud);
+
+
+.team-li {
+  color: var(--light--cloud);
 }
 
-.img-team {
-  background-color: #ffffff;
-}
+
 
 .title-team {
   font-family: Roboto;
