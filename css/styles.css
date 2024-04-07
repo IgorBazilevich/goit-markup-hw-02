@@ -56,7 +56,8 @@ a {
   color: var(--dark--navy--blue);
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--pressed--state--ocean);
 }
 
@@ -90,7 +91,7 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white--background--white);
@@ -113,7 +114,7 @@ button {
 
 button:hover,
 button:focus {
-  color: var(--pressed--state--ocean);
+  background-color: var(--pressed--state--ocean);
 }
 
 .title-directions {
@@ -147,6 +148,10 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: var(--dark--navy--blue);
+
+.img-team {
+  background-color: var(--white--background--white);
 }
 
 .title-name {
@@ -165,6 +170,7 @@ button:focus {
 
 .portfolio {
   background-color: var(--light--cloud);
+  color: var(--dark--navy--blue);
 }
 
 .title-portfolio {
